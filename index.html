@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Novitaa 🧡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ MUSIK LATAR ============ -->
+  <audio id="bgMusic" loop preload="none">
+    <source src="TULUS - Jatuh Suka (Official Lyric Video).mp3" type="audio/mpeg" />
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <button id="musicBtn" class="music-btn" aria-label="Putar musik">
+    <span class="music-icon">🎵</span>
+    <span class="music-text">Putar Lagu</span>
+  </button>
+
+  <!-- Floating hearts background -->
+  <div class="floating-hearts" aria-hidden="true">
+    <span>🧡</span><span>✨</span><span>🍊</span><span>🧡</span><span>✨</span>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <p class="hero-sub">Untuk orang paling spesial</p>
+    <h1 class="hero-title">Happy Birthday,<br /><span>Novitaa</span> 🎂</h1>
+    <p class="hero-desc">Hari spesial untuk orang yang paling spesial di hidupku.</p>
+
+    <!-- BAGIAN YANG DIGANTI JADI VIDEO -->
+    <div class="hero-photo frame-arch">
+      <!-- Video: autoplay, loop, muted (wajib muted biar bisa autoplay di HP), playsinline -->
+      <video 
+        src="WhatsApp Video 2026-11-23 at 13.58.45.mp4" 
+        autoplay 
+        loop 
+        muted 
+        playsinline 
+        preload="metadata"
+        class="hero-video"
+      ></video>
+      <span class="ornament star">✨</span>
+      <span class="ornament orange">🍊</span>
+    </div>
+  </header>
+
+  <!-- ============ UCAPAN ULANG TAHUN ============ -->
+  <section class="section greeting">
+    <div class="card greeting-card reveal">
+      <span class="quote-mark">“</span>
+      <h2 class="section-title">Selamat Ulang Tahun, Novita Dewi Alfiah 🧡</h2>
+      <p>
+        Selamat bertambah usia, ya. Terima kasih sudah lahir ke dunia dan menjadi
+        seseorang yang begitu berarti. Setiap kali melihatmu, dunia terasa lebih
+        hangat, seperti warna senja yang tenang.
+      </p>
+      <p>
+        Semoga di usia baru ini kamu selalu sehat, bahagia, dan dikelilingi orang-orang
+        yang menyayangimu. Semoga semua mimpi yang kamu simpan perlahan jadi nyata,
+        satu per satu. Aku akan selalu ada, menemani setiap langkahmu. 🧡
+      </p>
+      <p class="greeting-sign">— dari aku, yang selalu sayang kamu</p>
+    </div>
+  </section>
+
+  <!-- ============ GALERI FOTO (SEMUA TENTANG DIA) ============ -->
+  <section class="section gallery">
+
+    <!-- Foto 1 -->
+    <article class="photo-card reveal">
+      <div class="photo-frame frame-arch">
+        <img src="WhatsApp Image 2026-11-23 at 14.04.01.jpeg" alt="Senyumnya" loading="lazy" />
+      </div>
+      <div class="photo-text">
+        <h3>Senyummu</h3>
+        <p>
+          Ini senyum yang selalu berhasil bikin hariku lebih baik. Sederhana,
+          tulus, tapi punya kekuatan yang nggak bisa aku jelaskan. Setiap kali
+          kamu tersenyum, rasanya dunia ikut ikut hangat. Jangan pernah berhenti
+          tersenyum ya, karena senyummu itu salah satu hal paling indah yang
+          pernah aku lihat. 🧡
+        </p>
+      </div>
+      <span class="ornament star">✨</span>
+    </article>
+
+    <!-- Foto 2 -->
+    <article class="photo-card reveal">
+      <div class="photo-frame frame-polaroid">
+        <span class="washi"></span>
+        <img src="WhatsApp Image 2026-11-23 at 14.04.11.jpeg" alt="Dirinya" loading="lazy" />
+      </div>
+      <div class="photo-text">
+        <h3>Dirimu</h3>
+        <p>
+          Kamu adalah orang yang selalu bisa bikin hal biasa jadi istimewa.
+          Caramu bercerita, caramu tertawa, bahkan caramu diam pun punya daya
+          tarik sendiri. Terima kasih sudah jadi dirimu yang apa adanya, yang
+          tulus, yang hangat. Kamu nggak perlu berubah jadi siapa pun, karena
+          kamu sudah lebih dari cukup. 🍊
+        </p>
+      </div>
+      <span class="ornament heart">🧡</span>
+    </article>
+
+    <!-- Foto 3 -->
+    <article class="photo-card reveal">
+      <div class="photo-frame frame-circle">
+        <img src="WhatsApp Image 2026-11-23 at 14.04.24.jpeg" alt="Dia" loading="lazy" />
+      </div>
+      <div class="photo-text">
+        <h3>Kamu</h3>
+        <p>
+          Ini foto kamu. Orang yang selalu bikin aku senyum sendiri. Matamu
+          seperti punya cerita yang selalu ingin aku dengar. Hatimu selembut
+          pagi, dan kehadiranmu selalu bikin hari terasa lebih ringan. Makasih
+          ya, sudah jadi kamu yang sebaik dan sehangat ini. 🧡
+        </p>
+      </div>
+      <span class="ornament orange">🍊</span>
+    </article>
+
+  </section>
+
+  <!-- ============ REASONS WHY ============ -->
+  <section class="section reasons">
+    <div class="card reveal">
+      <h2 class="section-title center">Alasan Aku Sayang Kamu</h2>
+      <ul class="reasons-list">
+        <li>🧡 Karena senyummu bikin hari berat jadi ringan.</li>
+        <li>🍊 Karena kamu selalu dengar cerita random-ku.</li>
+        <li>✨ Karena hatimu selembut pagi yang tenang.</li>
+        <li>🧡 Karena kamu bikin hal biasa jadi istimewa.</li>
+        <li>🍊 Karena kamu adalah kamu, dan itu cukup.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="section closing">
+    <div class="card closing-card reveal">
+      <h2 class="section-title center">Terima Kasih 🧡</h2>
+      <p>
+        Terima kasih sudah hadir dan menjadi bagian dari ceritaku. Semoga ulang tahun
+        ini menjadi awal dari tahun yang penuh kebahagiaan untukmu. Apa pun yang
+        terjadi nanti, aku akan selalu ada di sini, menemani.
+      </p>
+      <p class="closing-sign">Dibuat dengan sepenuh hati, khusus untukmu.</p>
+
+      <button id="heartBtn" class="heart-btn" aria-label="Kirim hati">
+        🧡 <span>Kirim Hati</span>
+      </button>
+      <p id="heartMsg" class="heart-msg"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© Chaisar — Dibuat dengan 🧡</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
